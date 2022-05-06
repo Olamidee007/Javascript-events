@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Mouse Event</title>
+    <link rel="stylesheet" href="master.css">
+  </head>
+  <body>
+
+    <div class="wrapper">
+
+      <!-- onclick -->
+      <p onclick="this.innerHTML = 'Welcome'" onmouseout="this.innerHTML='Click on this text!'">Click on this text!</p>
+
+      <!-- onmousemove -->
+      <p onmousemove="this.innerHTML='You good?'" onmouseout="this.innerHTML='Mouse Over Me'">Mouse Over Me</p>
+
+      <!-- onmousedown -->
+      <p onmousedown="this.innerHTML='Let Me Go'" onmouseup="this.innerHTML='Mouse Down'">Mouse Down</p>
+
+      <!-- onmouseover -->
+      <p onmouseover="this.innerHTML='See You Later'" onmouseout="this.innerHTML='Mouse On Me'">Mouse On Me</p>
+
+    </div>
+  </body>
+</html>
