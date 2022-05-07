@@ -10,17 +10,20 @@
     <div class="wrapper">
 
       <!-- onclick -->
-      <p>Click on this text!</p>
+      <p onclick="changeText(this, 'Welcome')" onmouseout="changeText(this, 'Click on this text')">Click on this text!</p>
 
       <!-- onmousemove -->
-      <p>Mouse Over Me</p>
+      <p onmousemove="changeText(this, 'You Good?')" onmouseout="changeText(this, 'Mouse Over Me')">Mouse Over Me</p>
 
       <!-- onmousedown -->
-      <p>Mouse Down</p>
+      <p onmousedown="changeText(this, 'Let Me Go')" onmouseup="changeText(this, 'Mouse Down')">Mouse Down</p>
 
       <!-- onmouseover -->
-      <p>Mouse Over Me</p>
+      <p onmousemove="changeText(this, 'See You Later')" onmouseout="changeText(this, 'Mouse Over Me')">Mouse Over Me</p>
 
     </div>
   </body>
 </html>
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+ </html>
