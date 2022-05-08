@@ -2,24 +2,26 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Mouse Events</title>
+    <title>Turn it up with a switch</title>
     <link rel="stylesheet" href="master.css">
   </head>
   <body>
-    <div class="Wrapper">
+    <div class="lightitup">
+      <h2>Light Up Nigeria</h2>
 
-      <!-- onclick -->
-      <p>Click on this text!</p>
+      <img class="lightsoff" id="myImage" src="img/bulb off.png">
 
-      <!-- onmousemove -->
-      <p>Mouse Over Me</p>
-
-      <!-- onmousedown -->
-      <p>Mouse Down</p>
-
-      <!-- onmouseover -->
-      <p>Mouae Over Me</p>
+      <!-- Rectangular switch -->
+     <label class="switch">
+       <input type="checkbox" id="id_switch">
+       <span class="slider rectangle" id="rectangleBtn"></span>
+     </label>
 
     </div>
+
+
+<footer>Olamiday007 &copy;2022</footer>
+
+<script src="script.js" charset="utf-8"></script>
   </body>
 </html>
